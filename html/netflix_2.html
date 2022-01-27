@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="netflix2.css">
+    
+</head>
+<body style="margin: 0;">
+  <div class="container">
+    <div class="nev">
+      <div class="childs"><img src="netflix-logo.png" id="Netflixlogo"></div>
+      <div class="childs" style="padding-top: 15px;"> <a href=""> Home</a></div>
+      <div class="childs" style="padding-top: 15px;"> <a href=""> Tv Shows</a></div>
+      <div class="childs"style="padding-top: 15px;"> <a href=""> Movies</a></div>
+      <div class="childs"style="padding-top: 15px;"> <a href=""> My List</a></div>
+      <div class="child" > <img src="netflix-avatar.png" alt=""id = "profile"> </div>
+      <div class="child"style="padding-top:5px"> <svg id="i-bell" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M8 17 C8 12 9 6 16 6 23 6 24 12 24 17 24 22 27 25 27 25 L5 25 C5 25 8 22 8 17 Z M20 25 C20 25 20 29 16 29 12 29 12 25 12 25 M16 3 L16 6" />
+        </svg></div>
+      <div class="child"style="padding-top:5px"><svg id="i-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <circle cx="14" cy="14" r="12" /><path d="M23 23 L30 30"  />
+        </svg></div>
+      <div class="child"><button type="button" id ="nighbtn" onclick="nighmode()"ondblclick="lightmode()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+      </svg></button></div>
+    </div>
+
+        <div class="top">
+          <img src="moneyheist.png" id="moneyheist" >
+          <button type="button" id="leftbutton" onclick= "clicktopleft()"><svg id="i-chevron-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M20 30 L8 16 20 2" /></svg></button>
+          <button type="button" id="rightbutton" onclick="clicktopright()"><svg id="i-chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M12 30 L24 16 12 2" /></svg></button>
+        </div>
+        <div class="kan">
+          <h2 class="new_realease">New Release</h2>
+        <div class="hello" id ="box1">
+           <a href="vedio.html"><div class="box" id="pro1" onmouseover="mover1(this)" onmouseout="mout1(this)"></div></a>
+           <a href="vedio.html"><div class="box" id ="pro2"onmouseover="mover2(this)" onmouseout="mout2(this)" ></div></a>
+           <a href="vedio.html"><div class="box "id ="pro3"onmouseover="mover3(this)" onmouseout="mout3(this)"></div></a>
+           <a href="vedio.html"><div class="box "id ="pro4"onmouseover="mover4(this)" onmouseout="mout4(this)"></div></a>
+           <a href="vedio.html"><div class="box" id="pro5"onmouseover="mover5(this)" onmouseout="mout5(this)"> </div></a>
+           <a href="vedio.html"><div class="box" id="pro6"onmouseover="mover6(this)" onmouseout="mout6(this)"></div></a>
+           <a href="vedio.html"><div class="box" id="pro7"onmouseover="mover7(this)" onmouseout="mout7(this)"></div></a>
+           <a href="vedio.html"><div class="box" id="pro8"onmouseover="mover8(this)" onmouseout="mout8(this)"></div></a>
+           <a href="vedio.html"><div class="box" id="pro9"onmouseover="mover9(this)" onmouseout="mout9(this)"></div></a>
+           <a href="vedio.html"><div class="box" id="pro10"onmouseover="mover10(this)" onmouseout="mout10(this)"></div></a>
+        </div>
+        </div>
+
+        <div class="kan">
+          <h2 class="topForYou">Top Pick For You</h2>
+
+        <div class="hello" id ="box1">
+          <a href="vedio.html"><div class="box1" id="pro11" onmouseover="mover11(this)" onmouseout="mout11(this)" > </div></a>
+          <a href="vedio.html"><div class="box1" id="pro12"onmouseover="mover12(this)" onmouseout="mout12(this)"> </div> </a>
+          <a href="vedio.html"><div class="box1" id ="pro13"onmouseover="mover13(this)" onmouseout="mout13(this)"></div></a>
+          <a href="vedio.html"><div class="box1 "id ="pro14"onmouseover="mover14(this)" onmouseout="mout14(this)"></div></a>
+          <a href="vedio.html"><div class="box1 "id ="pro15"onmouseover="mover15(this)" onmouseout="mout15(this)"></div></a>
+          <a href="vedio.html"><div class="box1" id="pro16"onmouseover="mover16(this)" onmouseout="mout16(this)"></div></a>
+          <a href="vedio.html"><div class="box1" id="pro17"onmouseover="mover17(this)" onmouseout="mout17(this)"></div></a>
+          <a href="vedio.html"><div class="box1" id="pro18"onmouseover="mover18(this)" onmouseout="mout18(this)"></div></a>
+          <a href="vedio.html"><div class="box1" id="pro19"onmouseover="mover19(this)" onmouseout="mout19(this)"></div></a>
+
+  </div>
+
+  </div>
+
+
+
+    <script src="netflix2.js"></script>
+</body>
+</html>

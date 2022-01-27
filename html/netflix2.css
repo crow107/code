@@ -1,0 +1,358 @@
+*{
+  box-sizing: border-box;
+}
+
+
+/* nevigation */
+.nev{
+  width: 100%;
+  height: 4em;
+  background-color:black;
+  position:sticky;
+  top: 0;
+
+}
+p{
+  color :white;
+}
+#Netflixlogo{
+  height: 3em;
+  padding-right: 40px;
+  padding-top: 15;
+}
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+a:hover{
+  color: red;
+}
+.childs{
+  float: left;
+  padding-left: 20px;
+}
+svg#i-search{
+  color: aliceblue;
+  height: 3em;
+}
+svg#i-bell{
+  color: aliceblue;
+  height: 3em;
+}
+svg#i-search:hover{
+  color: red;
+}
+svg#i-bell:hover{
+  color: red;
+}
+#profile{
+  background-color:cornflowerblue;
+  height: 3em;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.child{
+  float: right;
+  padding-left: 20px;
+}
+
+/* top movies in large size */
+.top{
+  height: 25em;
+}
+
+#moneyheist{
+  width: 100%;
+  height: 450px;
+}
+
+#leftbutton{
+  background-color: rgba(127, 255, 212, 0);
+  border: 0;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  bottom: 300px;
+  left: 10px;
+
+}
+#rightbutton{
+  background-color: rgba(127, 255, 212, 0);
+  border: 0;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  bottom: 300px;
+  left: 91%;
+
+
+}
+
+svg#i-chevron-right{
+  color: aliceblue;
+
+}
+svg#i-chevron-left{
+  color: aliceblue;
+
+}
+svg#i-chevron-right:hover{
+  color: red;
+}
+svg#i-chevron-left:hover{
+  color: red;
+}
+.new{
+  position: relative;
+  top:70px;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 30px;
+  font-family: fantasy;
+  width: 1342px;
+  
+}
+#nighbtn{
+  background-color: rgb(252, 246, 246);
+  color: rgb(18, 18, 19);
+  border: 0;
+  border-radius: 50%;
+  position: relative;
+  top: 7px;
+  padding: 7px;
+}
+#nighbtn:hover{
+  background-color: #000;
+  color: aliceblue;
+}
+
+
+.hello::-webkit-scrollbar {
+  display: none;
+}
+.hello{
+  display: flex;
+  overflow-x:scroll ;
+
+  
+}
+
+
+.box{
+  min-width: 150;
+  height: 200;
+  margin: 5;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.box:hover{
+  min-width: 300;
+  animation-name: hi;
+  animation-duration: 1s;
+}
+@keyframes hi {
+  from {min-width: 150;}
+  to {min-width:300;}
+}
+@keyframes hi2 {
+  from {min-width: 300;}
+  to {min-width:150;}
+}
+
+.box1{
+  min-width: 150;
+  height: 200;
+  margin: 5;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 5px;
+
+}
+.box1:hover{
+  min-width: 300;
+  animation-name: hi;
+  animation-duration: 1s;
+}
+
+h2.new_realease{
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position:relative;
+  top:50px;
+
+
+}
+
+h2.topForYou{
+  height: 10px;
+  padding-left: 20px;
+  color: rgb(10, 10, 10);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top : 5px;
+}
+
+#pro1{
+  background-image: url("photo1/img1.jfif");
+}
+
+#pro1:hover{
+  background-image: url("photo1/img1b.jpg");
+  
+}
+
+#pro2{
+  background-image: url("photo1/img2.gif");
+}
+#pro2:hover{
+  background-image: url("photo1/img2b.jpg");
+
+}
+#pro3{
+  background-image: url("photo1/img3.jpg");
+}
+
+#pro3:hover{
+  background-image: url("photo1/img3b.jpg");
+}
+
+#pro4{
+  background-image: url("photo1/img5.jpg");
+}
+#pro4:hover{
+  background-image: url("photo1/im5b.jpg");
+
+}
+#pro5{
+  background-image: url("photo1/img6.jpg");
+}
+#pro5:hover{
+  background-image: url("photo1/img6b.jpg");
+
+}
+#pro6{
+  background-image: url("photo1/img7.jpg");
+}
+#pro6:hover{
+  background-image: url("photo1/img7b.jpg");
+
+}
+#pro7{
+  background-image: url("photo1/img8.jpg");
+}
+#pro7:hover{
+  background-image: url("photo1/img8b.jpg");
+
+}
+#pro8{
+  background-image: url("photo1/img9.jpg");
+}
+#pro8:hover{
+  background-image: url("photo1/img9b.jpg");
+
+}
+#pro9{
+  background-image: url("photo1/img10.jpg");
+}
+#pro9:hover{
+  background-image: url("photo1/img10b.jpg");
+
+}
+#pro10{
+  background-image: url("photo1/img11.jpg");
+}
+#pro10:hover{
+  background-image: url("photo1/img11b.jpg");
+
+}
+#pro11{
+  background-image: url("photo1/img12.jpg");
+}
+
+#pro11:hover{
+  background-image: url("photo1/img12b.jpg");
+}
+
+#pro12{
+  background-image: url("photo1/img13.jpg");
+}
+#pro12:hover{
+  background-image: url("photo1/img13b.jpg");
+
+}
+#pro13{
+  background-image: url("photo1/img14.jpg");
+}
+#pro13:hover{
+  background-image: url("photo1/img14b.jpg");
+
+}
+#pro14{
+  background-image: url("photo1/img15.jpg");
+}
+#pro14:hover{
+  background-image: url("photo1/img15b.jpg");
+
+}
+#pro15{
+  background-image: url("photo1/img16.jpg");
+}
+#pro15:hover{
+  background-image: url("photo1/img16b.jpg");
+
+}
+#pro16{
+  background-image: url("photo1/img17.jpg");
+}
+#pro16:hover{
+  background-image: url("photo1/img17b.jpg");
+
+}
+#pro17{
+  background-image: url("photo1/img18.jpg");
+}
+#pro17:hover{
+  background-image: url("photo1/img18b.jpg");
+
+}
+#pro18{
+  background-image: url("photo1/img19.jpg");
+}
+#pro18:hover{
+  background-image: url("photo1/img19b.jpg");
+
+}
+#pro19{
+  background-image: url("photo1/img20.jpg");
+}
+#pro19:hover{
+  background-image: url("photo1/img20b.jpg");
+
+}
+.play{
+  padding-left: 10px;
+  background-color: rgb(236, 90, 90);
+  color: rgb(226, 226, 226);
+  position: relative;
+  border: 0;
+  border-radius: 50%;
+}
+
+p{
+color:white;
+ position:relative; 
+ top:80px;
+ text-shadow: -1px 1px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}
+h3 ,h4{
+  color:rgb(226, 216, 216);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 100px;
+  text-shadow: -1px 1px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+}

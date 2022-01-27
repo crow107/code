@@ -1,0 +1,40 @@
+
+body{
+    background-color: rgb(204, 247, 140);
+    border: 1px solid cadetblue;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Header{
+    background-color:paleturquoise;
+    padding:1px;
+    border-radius: 20px;
+    padding-left: 60px;
+    border: 1px solid;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(155, 82, 184);
+    border-radius: 100px;
+
+}
+
+input[type=submit]:hover{
+    background-color: yellow;
+
+}
+textarea{
+    width : 100%;
+    padding :7px;
+    border: 1px solid seagreen;
+    border-radius: 20px;
+}
+.Body{
+    padding: 50px;
+    font-size: 20px;
+
+}

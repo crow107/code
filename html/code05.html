@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .box{
+            width: 70;
+            height: 70;
+            padding: 10;
+            margin: 10;
+            border: 1px solid;
+            text-align: center;
+        }
+        .main{
+            display: flex;
+            flex-wrap:wrap;
+        }
+        #flexbox_1{
+            background-color: aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+            align-content:center;
+        
+        }
+        #flexbox_2{
+        background-color: cadetblue;
+    }
+        #flexbox_3{
+        background-color: chartreuse;
+    }
+        #flexbox_4{
+        background-color:thistle ;
+    }
+    .pro1{
+        background-color: beige;
+        width: 20;
+        height: 20;
+        border: 1px solid;
+        margin: 2;
+        
+    }
+    .pro2{
+        background-color: blueviolet;
+        width: 20;
+        height: 20;
+        border: 1px solid;
+        margin: 2px;
+    }
+    .pro3{
+        background-color: yellowgreen;
+        width: 20;
+        height: 20;
+        border: 1px solid;
+        margin: 2px;
+    }
+    .pro4{
+        background-color: coral;
+        width: 20;
+        height: 20;
+        border: 1px solid;
+        margin: 2px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box box_1" id="flexbox_1">
+            
+            <div class="pro1">1</div>
+            <div class="pro2">2</div>
+            <div class="pro3">3</div>
+            <div class="pro4">4</div>
+        </div>
+        <div class="box box_2" id="flexbox_2">2</div>
+        <div class="box box_3" id="flexbox_3">3</div>
+        <div class="box box_4" id="flexbox_4">4</div>
+    </div>
+    
+</body>
+</html>

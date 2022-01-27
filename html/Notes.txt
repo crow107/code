@@ -1,0 +1,69 @@
+Html(Hyper text markup language)
+
+It is not a programing language it a markup language
+Developed by Tinn Berness - lee in 1980's
+
+Structure of Html
+<html>
+<head>
+<title></title>
+</head>
+<body>
+</body>
+</html>
+
+Basic Tags
+<html></html>
+<head></head>
+<title></title>
+<body></body>
+<p></p>
+<header></header>
+<h1></h1><h2></h2>
+<br>
+<hr>
+<table>
+<tr>
+<td >,<th>
+<font color>
+<b>
+<i>
+<ul>
+<pre></pre>
+<address></address>
+<small></small>
+<details><summary></summary></details>
+<a href= "link">
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<input type="text" name="" id="">
+<input type = "text">
+<input type="password">
+<input type="radio">
+<input type="hidden" name="">
+<input type="checkbox" name="" id="">
+<input type="file" name="" id="">
+<input type="submit" value="SUBMIT">
+<input type="reset" value="reset">
+<input type="image" src="" alt="f">
+<textarea name="kansdf" id="" cols="30" rows="10"></textarea>
+<select name="" id="">
+<option value="">hello</option>
+<option value="">e</option>
+<option value="">gg</option>
+</select>
+<fieldset>
+<legend>abc</legend><!--   This is like title for that box  -->
+    <!-- to create a box  --> 111111
+</fieldset>
+<input type="email" name="" id="">    
+<textarea name="address" id="" cols="30" rows="10"></textarea>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="320" height="240" controls source src="video/main.mp4" type="video/mp4 " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen ></video>
+<ul><li></li></ul>
+<ol><li></li></ol>
+<dl><dt>title</dt>
+<dd>discription</dd></dl>
+
+
+Css
+

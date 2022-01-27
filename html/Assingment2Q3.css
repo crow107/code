@@ -1,0 +1,111 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:darkseagreen;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+
+}
+.Table{
+    border: 1px solid white;
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40;
+    margin-left: 120px;
+    width: 900px;
+
+}
+textarea{
+    position: relative;
+    bottom: 40;
+    margin-left: 125px;
+    padding: 5px;
+
+}
+#Fname{
+    margin-left: 50px;
+    padding: 5px;
+}
+#Lname{
+    margin-left: 51px;
+    padding: 5px;
+}
+#date{
+    margin-left: 36px;
+    padding: 5px;
+}
+#month{
+    margin-left: 10px;
+    padding: 5px;
+}
+#year{
+    margin-left: 10px;
+    padding: 5px;
+}
+#Email{
+    margin-left: 28px;
+    padding: 5px;
+}
+#MNum{
+    margin-left: 22px;
+    padding: 5px;
+}
+#male {
+    margin-left: 10px;
+}
+#female{
+    margin-left: 10px;
+}
+pre{
+    font-size: 15px;
+    color: white;
+    
+}
+
+#city{
+    margin-left: 95px;
+    padding: 5px;
+}
+#pcode{
+    margin-left: 59px;
+    padding: 5px;
+}
+#state{
+    margin-left: 85px;
+    padding: 5px;
+}
+#Country{
+    margin-left: 67px;
+    padding: 5px;
+}
+#Other{
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+table{
+    border: 2px white;
+    color: white;
+}
+th{
+    padding: 10px;
+    border: 0px;
+    width: 200px;
+}
+td{
+    padding: 5px;
+}
+
+.A{
+    background-color: white;
+
+}
+.no{
+    border: 0;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color:blueviolet;
+}
+div.next{
+    position:absolute;
+    top:120px;
+    border:1px solid;
+    width: 800px;
+    padding:50px;
+    margin-left: 20%;
+    background-color:aliceblue;
+    bottom: 100px;
+}
+div.Main{
+    position: absolute;
+    border:1px solid;
+    width: 300px;
+    padding:50px;
+    margin-left: 20%;
+    top:40px ;
+    background-color:aliceblue;
+    bottom: 30px;
+    left: 50px;
+}
+
+
+input[type = "text"]{
+    padding: 11px ;
+    text-align: center;
+    width :250px;
+    border: 1px solid;
+    border-radius: 20px;
+
+}
+input[type = "submit"]{
+    padding: 9px;
+    width : 100px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+input[type="submit"]:hover{
+    background-color:aqua;
+}
+img {
+
+    padding: 5px;
+    width: 150px;
+  }
+p{
+    font-size:30px;
+}

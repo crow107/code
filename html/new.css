@@ -1,0 +1,17 @@
+
+.Kanishk{
+    float:left ;
+    padding: 60px;
+    border: 2px solid palegreen;
+    width: 100px;
+    background-color:rgb(240, 240, 195);
+
+}
+@media screen and (max-width:600px){
+    .Kanishk{
+        background-color: yellowgreen;
+    }
+    
+}
+
+

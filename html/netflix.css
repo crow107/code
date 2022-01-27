@@ -1,0 +1,218 @@
+*{
+    margin: 0 0 0 0;
+
+
+}
+body{
+
+    margin: 0 0 0 0;
+    height: 700px;
+    width: 1360px;
+    background-image: url("squidgames.png");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+header{
+    left: 30;
+    position: relative;
+    bottom: 65px;
+    font-size: 30;
+    font-family: fantasy;
+    color: antiquewhite;
+    width: 500px;
+}
+h1{
+    position: relative;
+    left: 60;
+    font-size: 60;
+    font-family: fantasy;
+    color: red;
+    width: 500px;
+}
+p.nev{
+    position: relative;
+    color: aliceblue;
+    bottom:100;
+    left:150;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+a:hover{
+    color: red;
+}
+svg#i-search{
+    position: relative;
+    bottom: 145;
+    left: 1200;
+    color: aliceblue;
+}
+svg#i-bell{
+    position: relative;
+    bottom:145px;
+    left:1220;
+    color: aliceblue;
+}
+
+svg#i-search:hover{
+    color: red;
+
+}
+svg#i-bell:hover{
+    color: red;
+
+}
+.dot {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color:dodgerblue;
+    border-radius: 50%;
+    display: block;
+    left: 1305px;
+    bottom: 188px;
+    border: 0 solid;
+    color: aliceblue;
+  }
+input[type ="button"]:hover{
+    cursor: pointer;
+
+
+}
+p.Money,p.Heist{
+    width: 500px;
+    font-family: fantasy;
+    font-size: 80;
+    position: relative;
+    color: aliceblue;
+    bottom:100;
+    left:150;
+
+}
+p.Heist{
+    position: relative;
+    bottom: 150px;
+}
+
+img.N{
+    position:relative;
+    height: 20px;
+    bottom:380px;
+    left: 180px;
+}
+p.series{
+    color: aliceblue;
+    width: 500px;
+    position: relative;
+    bottom:400px;
+    left: 200px;
+    
+}
+button.playnow{
+    position: relative;
+    bottom: 220px;
+    left: 150px;
+    color:aliceblue;
+    background-color: rgba(85, 84, 84, 0.37);
+    border: 0 solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+#search{
+    position: relative;
+    bottom: 143px;
+    left: 910;
+    border-radius: 20px;
+    padding: 5px;
+    border: 0 solid;
+}
+
+ /* flexbox       */
+   
+.new{
+    position: relative;
+    top:70px;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 30px;
+    font-family: fantasy;
+    width: 1342px;
+    
+}
+.hello::-webkit-scrollbar {
+    display: none;
+  }
+.hello{
+    display: flex;
+    overflow-x:scroll ;
+
+    
+}
+
+.box{
+    min-width: 50;
+    height: 300;
+    margin: 5;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+.box img{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.box:hover{
+    position: relative;
+    bottom: 50px;
+    min-width: 500;
+    height: 250;
+    text-align: center;
+
+}
+.hi::-webkit-scrollbar {
+    display: none;
+  }
+.hi{
+    display: flex;
+    width: 100%;
+    overflow-x:scroll ;
+    
+}
+.box1{
+    min-width: 300;
+    height: 150;
+    margin: 5;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.box1 img{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.box1:hover{
+    position: relative;
+    bottom: 50px;
+    min-width: 500;
+    height: 250;
+    text-align: center;
+
+}
+.recent{
+    position: relative;
+    left: 10px;
+    top:10px;
+    font-family: fantasy;
+    font-size: 30px;
+    color: aliceblue;
+    height: 0px;
+}

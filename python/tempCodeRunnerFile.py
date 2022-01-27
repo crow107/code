@@ -1,0 +1,1 @@
+s.replace(k[0][0],k[0][0].upper())
