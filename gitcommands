@@ -1,0 +1,12 @@
+git status
+git init 
+git add <filename>
+git add *
+git commit -m "commit massage"
+git commit -a  (I ,  :wq)
+git push origin master
+git checkout -b <branchname >
+git checkout <branchname>
+git checkout -f
+git diff
+git log
