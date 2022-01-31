@@ -2,6 +2,9 @@
     background-color:bisque;
     padding: 50px;
 }
+body{
+    background-color: bisque;
+}
 
 a:hover{
     color: tomato;
