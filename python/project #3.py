@@ -198,67 +198,67 @@ def window():
       text=time.strftime('%H:%M:%S')
       label=Label(clock,text=text,font=('ds-digital',50,'bold'),bg='black',fg='lawn green')
       label.place(x=30,y=20)
-   #-------wikipedia--------------------
-   def wikipedia():
-      def get():
+   # #-------wikipedia--------------------
+   # def wikipedia():
+   #    def get():
       
-         try:
-               a=entryk.get()
-               answer1 = wikipedia.summary(a)
-               label1 = Label(window1,fg='white',text=answer1, font='times 15 bold')
-               label1.place(x=0,y=250)
-         except Exception as e:
-               labeld=Label(window1,text='again')
-               labeld.pack()
-      kwikipedia=Toplevel(top)
-      kwikipedia.geometry('1366x768')
-      window1 = Toplevel(kwikipedia)
-      window1.geometry("1366x768")
-      r=sr.Recognizer()
-      Image = PhotoImage(file = "E://Image//wiki.png")
-      label=Label(kwikipedia, image=Image)
-      label.image = Image
-      label.place(x=0,y=0)
-      entryk = Entry(kwikipedia,bg="white")
-      entryk.place(width=450,height=55,x=425,y=551)
+   #       try:
+   #             a=entryk.get()
+   #             answer1 = wikipedia.summary(a)
+   #             label1 = Label(window1,fg='white',text=answer1, font='times 15 bold')
+   #             label1.place(x=0,y=250)
+   #       except Exception as e:
+   #             labeld=Label(window1,text='again')
+   #             labeld.pack()
+   #    kwikipedia=Toplevel(top)
+   #    kwikipedia.geometry('1366x768')
+   #    window1 = Toplevel(kwikipedia)
+   #    window1.geometry("1366x768")
+   #    r=sr.Recognizer()
+   #    Image = PhotoImage(file = "E://Image//wiki.png")
+   #    label=Label(kwikipedia, image=Image)
+   #    label.image = Image
+   #    label.place(x=0,y=0)
+   #    entryk = Entry(kwikipedia,bg="white")
+   #    entryk.place(width=450,height=55,x=425,y=551)
     
-      button= Button(kwikipedia,image=P1,relief=FLAT,command=get)
-      button.place(x=875,y=550,width=65,height=55)
-      try:
-               answer1 = wikipedia.summary(a)
-               label1 = Label(window1,fg='white',text=answer1, font='times 15 bold')
-               label1.place(x=0,y=250)
-      except Exception as e:
-               labeld=Label(window1,text='again')
-               labeld.pack()      
-#--------------------------KAsistant-----------------------------------------------
-   def KAsistant():
-      window = Toplevel(top)
-      window.geometry("700x600")
-      r=sr.Recognizer()
-      with sr.Microphone() as source:
-         audio = r.listen(source)
-         try:
-               text1 = r.recognize_google(audio)
-               if text1 == "stop":
-                  label4=Label(KAsistant,text='OK')
-                  label4.pack()
-               else:
-                  try:
-                        app_id = "5R9TL5-TR9PUHAHW7"
-                        client = wolframalpha.Client(app_id)
-                        res = client.query(text1)
-                        answer = next(res.results).text
-                        label1 = Label(window, justify=LEFT, wraplength=650, compound=CENTER, padx=10, text=answer, font='times 15 bold')
-                        label1.pack()
+   #    button= Button(kwikipedia,image=P1,relief=FLAT,command=get)
+   #    button.place(x=875,y=550,width=65,height=55)
+   #    try:
+   #             answer1 = wikipedia.summary(a)
+   #             label1 = Label(window1,fg='white',text=answer1, font='times 15 bold')
+   #             label1.place(x=0,y=250)
+   #    except Exception as e:
+   #             labeld=Label(window1,text='again')
+   #             labeld.pack()      
+# #--------------------------KAsistant-----------------------------------------------
+#    def KAsistant():
+#       window = Toplevel(top)
+#       window.geometry("700x600")
+#       r=sr.Recognizer()
+#       with sr.Microphone() as source:
+#          audio = r.listen(source)
+#          try:
+#                text1 = r.recognize_google(audio)
+#                if text1 == "stop":
+#                   label4=Label(KAsistant,text='OK')
+#                   label4.pack()
+#                else:
+#                   try:
+#                         app_id = "5R9TL5-TR9PUHAHW7"
+#                         client = wolframalpha.Client(app_id)
+#                         res = client.query(text1)
+#                         answer = next(res.results).text
+#                         label1 = Label(window, justify=LEFT, wraplength=650, compound=CENTER, padx=10, text=answer, font='times 15 bold')
+#                         label1.pack()
                
-                  except Exception as e:
-                        answer1 = wikipedia.summary(text1)
-                        label1 = Label(window, justify=LEFT, compound=CENTER, text=answer, font='times 15 bold')
-                        label1.pack()
-         except Exception as e:
-               labeld=Label(window,text='again')
-               labeld.pack()
+#                   except Exception as e:
+#                         answer1 = wikipedia.summary(text1)
+#                         label1 = Label(window, justify=LEFT, compound=CENTER, text=answer, font='times 15 bold')
+#                         label1.pack()
+#          except Exception as e:
+#                labeld=Label(window,text='again')
+#                labeld.pack()
     
    #-------------------------new_window-------------------------------------------------------------------
 
@@ -403,63 +403,63 @@ def window():
    #---
    clock=Button(Window,bg='grey',image=photo4,command=clock)
    clock.place(x=100,y=220,width=40,height=40)
-   #---
-   KAsistant1=Button(Window,bg='grey',image=photo5,command=KAsistant,relief=FLAT)
-   KAsistant1.place(x=100,y=280,width=40,height=40)
-   #---
-   wikipedia1=Button(Window,bg='grey',image=photo6,command=wikipedia,relief=FLAT)
-   wikipedia1.place(x=100,y=340,width=40,height=40)
-#-------wikipedia--------------------
-def wikipedia():
-   def get():
-      a=entryk.get()
-   def result():
-      get()
-      answer1 = wikipedia.summary(a)
-      label1 = Label(window1,fg='white',text=answer1, font='times 15 bold')
-      label1.place(x=0,y=250)
+#    #---
+#    KAsistant1=Button(Window,bg='grey',image=photo5,command=KAsistant,relief=FLAT)
+#    KAsistant1.place(x=100,y=280,width=40,height=40)
+#    #---
+#    wikipedia1=Button(Window,bg='grey',image=photo6,command=wikipedia,relief=FLAT)
+#    wikipedia1.place(x=100,y=340,width=40,height=40)
+# # #-------wikipedia--------------------
+# def wikipedia():
+#    def get():
+#       a=entryk.get()
+#    def result():
+#       get()
+#       answer1 = wikipedia.summary(a)
+#       label1 = Label(window1,fg='white',text=answer1, font='times 15 bold')
+#       label1.place(x=0,y=250)
       
-   kwikipedia=Toplevel(top)
-   kwikipedia.geometry('1366x768')
-   window1 = Toplevel(kwikipedia)
-   window1.geometry("1366x768")
-   r=sr.Recognizer()
-   Image = PhotoImage(file = "E://Image//wiki.png")
-   label=Label(kwikipedia, image=Image)
-   label.image = Image
-   label.place(x=0,y=0)
-   entryk = Entry(kwikipedia,bg="white")
-   entryk.place(width=450,height=55,x=425,y=551)
-   button= Button(kwikipedia,image=P1,relief=FLAT,command=result)
-   button.place(x=875,y=550,width=65,height=55)     
-#--------------------------KAsistant-----------------------------------------------
-def KAsistant():
-   window = Toplevel(top)
-   window.geometry("700x600")
-   r=sr.Recognizer()
-   with sr.Microphone() as source:
-      audio = r.listen(source)
-      try:
-            text1 = r.recognize_google(audio)
-            if text1 == "stop":
-               label4=Label(KAsistant,text='OK')
-               label4.pack()
-            else:
-               try:
-                     app_id = "5R9TL5-TR9PUHAHW7"
-                     client = wolframalpha.Client(app_id)
-                     res = client.query(text1)
-                     answer = next(res.results).text
-                     label1 = Label(window, justify=LEFT, wraplength=650, compound=CENTER, padx=10, text=answer, font='times 15 bold')
-                     label1.pack()
+#    kwikipedia=Toplevel(top)
+#    kwikipedia.geometry('1366x768')
+#    window1 = Toplevel(kwikipedia)
+#    window1.geometry("1366x768")
+#    r=sr.Recognizer()
+#    Image = PhotoImage(file = "E://Image//wiki.png")
+#    label=Label(kwikipedia, image=Image)
+#    label.image = Image
+#    label.place(x=0,y=0)
+#    entryk = Entry(kwikipedia,bg="white")
+#    entryk.place(width=450,height=55,x=425,y=551)
+#    button= Button(kwikipedia,image=P1,relief=FLAT,command=result)
+#    button.place(x=875,y=550,width=65,height=55)     
+# #--------------------------KAsistant-----------------------------------------------
+# def KAsistant():
+#    window = Toplevel(top)
+#    window.geometry("700x600")
+#    r=sr.Recognizer()
+#    with sr.Microphone() as source:
+#       audio = r.listen(source)
+#       try:
+#             text1 = r.recognize_google(audio)
+#             if text1 == "stop":
+#                label4=Label(KAsistant,text='OK')
+#                label4.pack()
+#             else:
+#                try:
+#                      app_id = "5R9TL5-TR9PUHAHW7"
+#                      client = wolframalpha.Client(app_id)
+#                      res = client.query(text1)
+#                      answer = next(res.results).text
+#                      label1 = Label(window, justify=LEFT, wraplength=650, compound=CENTER, padx=10, text=answer, font='times 15 bold')
+#                      label1.pack()
       	    
-               except Exception as e:
-                     answer1 = wikipedia.summary(text1)
-                     label1 = Label(window, justify=LEFT, compound=CENTER, text=answer, font='times 15 bold')
-                     label1.pack()
-      except Exception as e:
-            labeld=Label(window,text='again')
-            labeld.pack()
+#                except Exception as e:
+#                      answer1 = wikipedia.summary(text1)
+#                      label1 = Label(window, justify=LEFT, compound=CENTER, text=answer, font='times 15 bold')
+#                      label1.pack()
+#       except Exception as e:
+#             labeld=Label(window,text='again')
+#             labeld.pack()
 #-------------------------tic_tak_toe-----------------------------------------------------------
 def tic_tak_toe():
    def button(frame):          
@@ -718,12 +718,12 @@ def new_window():
       c=Entry6.get()
       d=Entry7.get()
       #-----------------mysql--bill--------
-      mydb = mysql.connector.connect(host="localhost",user="root",password="kanishk",database='kanishk')
-      cur = mydb.cursor()
-      i= "INSERT INTO bills (Sno,_Name,Phone_No,Amount) VALUES (%s, %s, %s, %s)"
-      da= (c,a,b,d)
-      cur.execute(i,da)
-      mydb.commit()
+      # mydb = mysql.connector.connect(host="localhost",user="root",password="kanishk",database='kanishk')
+      # cur = mydb.cursor()
+      # i= "INSERT INTO bills (Sno,_Name,Phone_No,Amount) VALUES (%s, %s, %s, %s)"
+      # da= (c,a,b,d)
+      # cur.execute(i,da)
+      # mydb.commit()
    def print_bill():
       print("helo")
       
@@ -891,12 +891,12 @@ P1= PhotoImage(file = "E://Image//search1.png")
 photo7= PhotoImage(file = "E://Image//app_drawer.png")
 clock=Button(top,bg='grey',image=photo7,command=window,relief=FLAT)
 clock.place(x=770,y=610,width=40,height=40)
-#-------KASistant-------
-photo5= PhotoImage(file = "E://Image//asistant2.png")
-KAsistant=Button(top,bg='grey',image=photo5,command=KAsistant,relief=FLAT)
-KAsistant.place(x=670,y=610,width=40,height=40)
-#-------Wikipedia--------
-photo6= PhotoImage(file = "E://Image//wikipedia 1.png")
-wikipedia=Button(top,bg='grey',image=photo6,command=wikipedia,relief=FLAT)
-wikipedia.place(x=720,y=610,width=40,height=40)
-top.mainloop()
+# #-------KASistant-------
+# photo5= PhotoImage(file = "E://Image//asistant2.png")
+# KAsistant=Button(top,bg='grey',image=photo5,command=KAsistant,relief=FLAT)
+# KAsistant.place(x=670,y=610,width=40,height=40)
+# #-------Wikipedia--------
+# photo6= PhotoImage(file = "E://Image//wikipedia 1.png")
+# wikipedia=Button(top,bg='grey',image=photo6,command=wikipedia,relief=FLAT)
+# wikipedia.place(x=720,y=610,width=40,height=40)
+# top.mainloop()
