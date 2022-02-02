@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.hi{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+}
+.k{
+    background-color:green;
+    height: 50%;
+    width: 50%;
+    animation: right-to-left 1s infinite alternate ease-in;
+    
+    
+    
+}
+/* .hi:hover .k{
+    
+    
+} */
+@keyframes right-to-left {
+    0%{
+        background-color:palegoldenrod;
+    }
+    33%{
+        background-color: black;
+        transform: translateY(100%);
+
+    }
+    66%{
+        background-color: blueviolet;
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        background-color: blue;
+        transform: translateX(100%);
+    }
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="hi">
+        <div class="k"></div>
+    </div>
+    
+</body>
+</html>
