@@ -1,7 +1,10 @@
-from lib2to3.pytree import type_repr
-
-
-z=set([1,2,4,4,5,6,7,4,8])
-print(z)
-a=list(z)
-print(a[2])
+n = int(input)
+arr = map(int,s.split())
+Arr= list(arr)
+l = max(Arr)
+k =''
+while l in Arr:
+    Arr.remove(l)
+for i in range(len(Arr)):
+    k = k+ str(Arr[i])+' ' 
+print(k)
