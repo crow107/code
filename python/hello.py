@@ -1,5 +1,5 @@
 n = int(input)
-arr = map(int,s.split())
+arr = map(int,n.split())
 Arr= list(arr)
 l = max(Arr)
 k =''
