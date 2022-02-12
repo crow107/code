@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans:ital,wght@0,300;1,500&family=Shizuru&display=swap');
+#nevbar{
+    background-color:coral;
+    width: 100%;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    
+}
+/* font-family shizuru */
+#menu,#menu1{
+    height: 2em;
+    position: absolute;
+    right: 2em;
+}
+body{
+    margin: 0;
+}
+#Lofi{
+    position: absolute;
+    left: 4em;
+}
+#category2{
+    padding-left: 5em;
+}
+.menu{
+    padding-left: 2em;
+    font-family:'Nunito';
+    font-weight: bold; 
+}
+#options{
+    position:absolute;
+    right: 2em;
+}
+#logo{
+    height: 4em;
+}
+span{position: relative;
+display: block;
+width: 40px;
+height: 5px;
+margin-bottom: 8px;
+border-radius: 4px;
+background-color: black;
+z-index: 1;
+transition: transform 1s ;
+}
+button{
+    background-color:rgba(245, 222, 179, 0);
+    border: 0px;
+    z-index: 2;
+}
+.menubar{
+    background-color: rgba(128, 128, 128, 0.61);
+    display: none;
+    height: 100%;
+    width:20%;
+    position: absolute;
+    right: 0px;
+    font-size: 30px;
+    top: 0;
+    z-index: 1;
+
+}
+
+ul{
+    margin-top: 200px;
+    margin-left:10%;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+img{
+
+    height: 500px;
+}
