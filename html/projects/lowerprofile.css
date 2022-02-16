@@ -1,0 +1,51 @@
+*{
+    color: black;
+}
+body{
+    background-color:darkslategray;
+
+}
+.pi{
+    background-color:white;
+}
+.lowerprofile{
+    margin-top: 300px;
+    border: 1px solid black;
+}
+img{
+    width:300px;
+    margin: 10%;
+}
+#contactUs{
+    position: absolute;
+    font-weight: bolder;
+    font-size: x-large;
+    top:470px;
+    left: 40%;
+}
+#Email{
+    position:absolute;
+    top: 550px;
+    left: 40%;
+}
+#support{
+    position: absolute;
+    top: 470px;
+    font-weight: bolder;
+    font-size: x-large;
+    left: 70%;
+}
+#privatePolicy{
+    position: absolute;
+    top: 550px;
+    left: 70%;
+
+}
+#refund{
+    position: absolute;
+    top: 600px;
+    left: 70%;
+}
+#reserves{
+    text-align: center;
+}
