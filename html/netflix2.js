@@ -145,19 +145,24 @@ function mout19(obj){
 }
 function nighmode(){
     var elem = document.getElementsByTagName("body")
-    console.log(elem);
-    elem[0].style.background = "black";
-    var elem = document.getElementsByTagName("h2")
-    elem[0].style.color ="white"
-    elem[1].style.color ="white"
+    if (elem[0].style.backgroundColor=="white"){
+        elem[0].style.background = "black";
+        var elem = document.getElementsByTagName("h2");
+        elem[0].style.color ="white";
+        elem[1].style.color ="white";
+
+    }
+    else{
+        elem[0].style.background ="white";
+        var elem = document.getElementsByTagName("h2")
+        elem[0].style.color ="black"
+        elem[1].style.color ="black"
+    }
+
+    
 }
-function lightmode(){
-    var elem = document.getElementsByTagName("body")
-    elem[0].style.background ="white";
-    var elem = document.getElementsByTagName("h2")
-    elem[0].style.color ="black"
-    elem[1].style.color ="black"
-}
+    
+
 function playit(){
     console.log("hello")
 }

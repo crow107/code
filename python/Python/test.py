@@ -1,7 +1,11 @@
-l=[a,b,c,d]
-v=6
-for i in len(l):
-   l[i]=+v
-   v=v-l
-   print("v=",v,"l=",l)
+
+
+final = ''
+for i in range(len(queries)):
+   p,q,r = queries[i][0],queries[i][1],queries[i][2]
+   suum = r
+   for j in range(p,q):
+      suum = suum + j
+   final = final + suum +' '
+print(final)
 
