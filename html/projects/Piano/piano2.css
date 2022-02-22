@@ -1,0 +1,27 @@
+.white{
+    background-color: white;
+    height: 300px;
+    width: 100px;
+    border: 1px solid black;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.black{
+    height: 170px;
+    width: 40px;
+    background-color: black;
+    margin-left: -20px;
+    margin-right: -20px;
+    z-index: 2;
+    
+}
+
+body{
+    background-color: aquamarine;
+}

@@ -1,0 +1,18 @@
+#calender{
+    display: block;
+    border: 1px solid black;
+}
+.Month{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+    margin: 40px;
+    align-items: center;
+}
+p{
+    margin: auto;
+}
