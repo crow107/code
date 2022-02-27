@@ -1,7 +1,10 @@
 
+body{
+    background-color: aquamarine;
+}
 .container{
     margin: 5%;
-    background-color:rgb(255, 245, 226);
+    background-color:grey;
     height: 500px;
     border: 1px solid black;
     text-align: center;

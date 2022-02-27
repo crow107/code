@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+
+body{
+    letter-spacing: 2px;
+    height: 4000px;
+    background-color: rgb(233, 233, 233);
+}
+.topnav{
+    text-align: right;
+    padding: 30px;
+    font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left:40px;
+}
+
+#contact{
+    margin-right: 100px;
+}
+
+
+#name{ 
+    float: left;
+    margin-left: 20%;
+    color: rgb(8, 8, 8);
+}
+#name2{
+    float: left;
+    margin-left: 0px;
+    color: rgb(153,217,234);
+}
+
+
+a:hover{
+    color: aquamarine;
+}
+
+#banner{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.infobox{
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 270px;
+    font-size: x-large;
+    
+}
+
+.about{
+    position: absolute;
+    top: 900px;
+    right: 250px;
+    font-family: 'Rubik', sans-serif;
+    border: 1px dashed black;
+    padding: 30px;
+    background-color: white;
+}
+#hello{
+    color:rgba(153, 217, 234);
+}
+#img2{
+    position: absolute;
+    top: 100%;
+}
+
+
+.skills{
+    font-family: 'Rubik';
+    position:absolute;
+    top: 1500px;
+    left:5%;
+    padding: 20px;
+}
+
+
+#skill{
+    position: absolute ;
+    left: 600px;
+    top: 0px;
+}
+#html{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+#html::after{
+    content: '';
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    display: block;
+    height: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(153, 217, 234) 80%, white 20%);
+}
+
+#css{
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+#css::after{
+    content: ' ';
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    display: block;
+    height: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(153, 217, 234) 98%, white 2%);
+}
+#js{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+#js::after{
+    content: ' ';
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    display: block;
+    height: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(153, 217, 234) 70%, white 30%);
+}
+#bootstrap{
+    position: absolute;
+    top: 170px;
+    left: 700px;
+}
+#bootstrap::after{
+    content: ' ';
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    display: block;
+    height: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(153, 217, 234) 60%, white 40%);
+}
+#django{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+#django::after{
+    content: ' ';
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    display: block;
+    height: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgba(153, 217, 234) 20%, white 10%);
+}
+.projects{
+    position: absolute;
+    top: 2000px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.projects h1{
+    position: absolute;
+    left: 670px;
+}
+#keyboard{
+    position: absolute;
+    left: 200px;
+    display: block;
+    height: 200px;
+    top: 150px;
+    width: 400px;
+    background-color: rgba(153, 217, 234);
+}
+
+#notes{
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    display: block;
+    height: 200px;
+    width: 400px;
+    background-color: rgba(153, 217, 234);
+    
+}
+
+
+
+
