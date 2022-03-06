@@ -1,0 +1,15 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:darkseagreen;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+
+}
+input[type='text']{
+    padding: 7px;
+}

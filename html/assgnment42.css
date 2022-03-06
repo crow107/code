@@ -5,9 +5,10 @@ body{
     letter-spacing: 2px;
     background-color: rgb(233, 233, 233);
     height: 400vh;
-    /* overflow: hidden; */
+
 }
 .topnav{
+    border-radius: 30px;
     text-align: right;
     padding: 30px;
     font-family: 'Rubik', sans-serif;
@@ -24,16 +25,33 @@ body{
 
     
 }
+#kanishkimg{
+    position: absolute;
+    top: 130vh;
+    left: 250px;
+    border: 10px solid rgb(153,217,234);
+    border-radius: 30px;
+}
+.leftsidebar{
+    position:sticky;
+    top: 270px;
+    left: 70px;    
+    display: block;
+    height: 32vh;
+    width: 50px;
+    border-radius: 20px;
+    background-color: rgb(153,217,234);
+    padding-top: 28px;
+    
+}
 
-a{
+.topnav a{
     text-decoration: none;
     color: white;
     margin-left:40px;
 }
 
-#contact{
-    margin-right: 100px;
-}
+
 
 
 #name{ 
@@ -48,8 +66,22 @@ a{
 }
 
 
-a:hover{
+.topnav a:hover{
     color: aquamarine;
+    border-radius: 50px;
+}
+.topnav a:hover .topnav.a{
+    margin-left: 30px;
+}
+.leftsidebar a{
+    padding: 12px;
+    color: white;
+}
+.leftsidebar a:hover{
+    color: aquamarine;
+}
+.bi{
+    padding-top: 15px;
 }
 
 #banner{
@@ -65,29 +97,36 @@ a:hover{
     position: absolute;
     top: 250px;
     left: 270px;
+    z-index: -1;
     font-size: x-large;
     
 }
 .page1{
     height: 88vh;
+    margin-bottom: 12vh;
+
 }
 .page2{
-    height: 100vh;
+    height: 88vh;
+    margin-bottom: 12vh;
 }
 .page3{
-    height: 100vh;
+    height: 88vh;
+    margin-bottom: 12vh;
 }
 .page4{
-    height: 100vh;
+    height: 88vh;
+    margin-bottom: 12vh;
 }
 .about{
 
     position: absolute;
-    top: 900px;
+    top: 125vh;
     right: 250px;
     font-family: 'Rubik', sans-serif;
     border: 1px dashed black;
-    padding: 30px;
+    padding: 65px;
+    border-radius: 30px;
     background-color: white;
 }
 #hello{
@@ -97,12 +136,14 @@ a:hover{
     position: absolute;
     top: 100%;
 }
-
+#projects{
+    margin-right: 100px;
+}
 
 .skills{
     font-family: 'Rubik';
     position:absolute;
-    top: 1500px;
+    top: 230vh;
     left:5%;
     padding: 20px;
 }
@@ -191,7 +232,7 @@ a:hover{
 }
 .projects{
     position: absolute;
-    top: 2000px;
+    top: 330vh;
     font-family: 'Rubik', sans-serif;
 
 }
@@ -206,6 +247,10 @@ a:hover{
     height: 200px;
     top: 150px;
     width: 400px;
+    border-radius: 40px;
+    border: 5px solid rgba(153, 217, 234);;
+    background-color: rgb(153,217,234);
+
 }
 
 #notes{
@@ -215,12 +260,20 @@ a:hover{
     display: block;
     height: 200px;
     width: 400px;
+    border-radius: 40px;
+    border: 5px solid rgba(153, 217, 234);
+    background-color: rgb(153,217,234);
     
 }
-.projects h1 a img{
-    border: 5px solid red;
-}
 
+
+
+.mainmain{
+    background-color:#FC766AFF;
+    height: 100vh;
+    z-index: 5;
+    display: block;
+}
 .main{
     position:absolute;
     top: 50%;
@@ -231,27 +284,28 @@ a:hover{
 .childs{
     height: 20px;
     width: 50px;
+    z-index: 4;
     margin-bottom: 5px;
-    background-color:aquamarine;
+    background-color:rgb(153,217,234);
 }
 .c1{
-    animation: k1 5s 2 alternate ease-in;
+    animation: k1 2s 2 alternate ease-in;
 }
 .c6{
-    animation: k1 5s 2 alternate ease-in;
+    animation: k1 2s 2 alternate ease-in;
 }
 .c5{
-    animation: k2 5s 2 alternate ease-in;
+    animation: k2 2s 2 alternate ease-in;
 }
 .c2{
-    animation: k5 5s 2 alternate ease-in;
+    animation: k5 2s 2 alternate ease-in;
 }
 
 .c3{
-    animation: k3 5s 2 alternate ease-in;
+    animation: k3 2s 2 alternate ease-in;
 }
 .c4{
-    animation: k4 5s 2 alternate ease-in;
+    animation: k4 2s 2 alternate ease-in;
 }
 @keyframes k1 {
     33%{
@@ -317,6 +371,32 @@ a:hover{
     }
     
 }
+.projects a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.projects a #img1{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+}
+.projects a #img2{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
 
 
-
+#downloadCv{
+    padding: 10px;
+    border-radius: 12px;
+    border: 3px solid whitesmoke;
+    position: absolute;
+    top: 530px;
+    width: 140px;
+    left: 270px;
+    color: white;
+    background-color:rgb(153,217,234);
+}

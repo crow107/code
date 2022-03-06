@@ -70,7 +70,6 @@ button{
     z-index: 2;
 }
 .menubar{
-
     background-image: linear-gradient(to top, rgba(255,0,0,0),rgba(0, 183, 255, 0.596));
     display: none;
     height: 100%;
@@ -101,77 +100,10 @@ a{
     left: 50px;
     height: 50px;
 }
-.notebox{
-    padding:20px;
-    height: 300px;
-    width: 250px;
-    background-color:#ffca58;
-    position: absolute;
-    border-radius: 30px;
-    top: 200px;
-    left: 100px;
-}
-.notebox p{
-    padding-left: 90px;
-    padding-bottom: 20px;
+.container{
+    height: 100vh;
 }
 
-#textarea1{
-    border-radius: 10px;
-}
-
-#btn1{
-    padding: 8px;
-    border-radius: 10px;
-    border: 0px;
-    width: 200px;
-    position:absolute;
-    top: 280px;
-    left: 40px;
-
-}
-
-.notebox1{
-    padding:20px;
-    height: 300px;
-    width: 250px;
-    background-color:#ffca58;
-    border-radius: 30px;
-    margin: 10px;
-}
-.notebox1 p{
-    padding-left: 90px;
-    padding-bottom: 20px;
-}
-
-#textarea{
-    border-radius: 10px;
-}
-
-#btn{
-    padding: 8px;
-    border-radius: 10px;
-    border: 0px;
-    width: 200px;
-    position:absolute;
-    top: 280px;
-    left: 40px;
-
-}
-
-
-#newdiv{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 190px;
-    left: 420px;
-    width: 1000px;
-    height: auto;
-    margin-left: 30px;
-}
-
-#nothing{
-    margin-left: 40px;
-    margin-top: 40px;
+th{
+    padding: 20px;
 }

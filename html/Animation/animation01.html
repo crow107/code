@@ -7,42 +7,126 @@
     <title>Document</title>
     <style>
 .hi{
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .k{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
     background-color:green;
-    height: 50%;
-    width: 50%;
-    animation: right-to-left 1s infinite alternate ease-in;
+    height: 100px;
+    width: 100px;
+    animation: right-to-left 1s infinite alternate;
     
     
     
 }
-/* .hi:hover .k{
+.k2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    animation: right-to-left1 1s infinite alternate;
+    
+    
+    
+}
+.k3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    animation: right-to-left2 1s infinite alternate;
+    
+    
+    
+}
+/* .k1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:green;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    animation: right-to-left3 1s infinite alternate;
+    
     
     
 } */
 @keyframes right-to-left {
     0%{
-        background-color:palegoldenrod;
+        transform: 0 ;
+        
     }
     33%{
-        background-color: black;
-        transform: translateY(100%);
-
-    }
-    66%{
-        background-color: blueviolet;
-        transform: translateX(100%) translateY(100%);
-    }
-    100%{
-        background-color: blue;
-        transform: translateX(100%);
+        transform: translate(100%,100%) rotate(360deg);;
     }
     
+    
+    
 }
+
+/* @keyframes right-to-left1 {
+    0%{
+        transform: 0;
+    }
+    33%{
+        transform: translate(100%,-100%);
+    }
+
+    
+} */
+/* @keyframes right-to-left2 {
+    0%{
+        transform:translate(0);
+    }
+    33%{
+        transform: translateY(-100%);
+    }
+    66%{
+        transform: translateY(100%);
+    }
+    99%{
+        transform: translate(0);
+    }
+
+    
+} */
+/* @keyframes right-to-left3 {
+    0%{
+        transform:translateY(100%);
+    }
+    25%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform:translateX(-100%);
+    }
+    75%{
+        transform:translateX(100%) translateY(-100%);
+    }
+    100%{
+        transform:translateY(-100%);
+    }
+
+    
+} */
+
 
 
     </style>
@@ -50,6 +134,9 @@
 <body>
     <div class="hi">
         <div class="k"></div>
+        <div class="k1"></div>
+        <div class="k2"></div>
+        <div class="k3"></div>
     </div>
     
 </body>

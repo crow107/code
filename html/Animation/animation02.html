@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+        .childs{
+            height: 20px;
+            width: 50px;
+            margin-bottom: 5px;
+            background-color:aquamarine;
+        }
+        .c1{
+            animation: k1 5s 2 alternate ease-in;
+        }
+        .c6{
+            animation: k1 5s 2 alternate ease-in;
+        }
+        .c5{
+            animation: k2 5s 2 alternate ease-in;
+        }
+        .c2{
+            animation: k5 5s 2 alternate ease-in;
+        }
+
+        .c3{
+            animation: k3 5s 2 alternate ease-in;
+        }
+        .c4{
+            animation: k4 5s 2 alternate ease-in;
+        }
+        @keyframes k1 {
+            33%{
+                transform: rotate(90deg);
+            }
+            66%{
+                transform: rotate(90deg);
+            }
+            99%{
+                transform: rotate(90deg);
+            }
+
+        }
+        @keyframes k2 {
+            33%{
+                transform: rotate(90deg) translateX(-20px);
+            }
+            66%{
+                transform: rotate(90deg) translateX(-20px);
+            }
+            99%{
+                transform: rotate(90deg) translateX(-20px);
+            }
+
+        }
+        @keyframes k5 {
+            33%{
+                transform: rotate(90deg) translateX(20px);
+            }
+            66%{
+                transform: rotate(90deg) translateX(20px);
+            }
+            99%{
+                transform: rotate(90deg) translateX(20px);
+            }
+
+        }
+        @keyframes k3 {
+            33%{
+                transform: translateX(50px);
+            }
+            66%{
+                width: 90px;
+                transform: translateX(10px) translateY(-10px) rotate(-45deg);
+            }
+            99%{
+                width: 140px;
+                transform: translateX(1px) translateY(-20px) rotate(-45deg) ;
+            }
+            
+        }
+        @keyframes k4 {
+            33%{
+                transform: translateX(50px);
+            }
+            66%{
+                width: 90px;
+                transform: translateX(10px) translateY(10px) rotate(45deg);
+            }
+            99%{
+                width:140px;
+                transform: translateX(1px) translateY(20px) rotate(45deg) ;
+            }
+            
+        }
+
+    </style>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>  
+    <script>  
+        $(window).on('load', function () {  
+            setTimeout(() => {  $(".main").fadeOut("slow");
+                                    }, 4500);  
+       });  
+    </script>  
+</head>
+<body>
+    <div class="main">
+        <div class="childs c1"></div>
+        <div class="childs c2"></div>
+        <div class="childs c3"></div>
+        <div class="childs c4"></div>
+        <div class="childs c5"></div>
+        <div class="childs c6"></div>
+    </div>
+    
+</body>
+</html>
