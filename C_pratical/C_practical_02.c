@@ -1,7 +1,6 @@
 
 #include<stdio.h>
 void main(){
-    printf("Kanishk Rawat (BcaEA) \n");
     int num_1, num_2 , num_3;
     printf("Enter 3 numbers to find the greatest among them \n");
     printf("Enter number 1:-");

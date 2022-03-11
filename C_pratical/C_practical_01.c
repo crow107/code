@@ -1,4 +1,3 @@
-// write a program to convert temperature from Celsius to Fahrenheit by taking input from the user
 # include <stdio.h>
 void main(){
     float temp_C;

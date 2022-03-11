@@ -1,402 +1,395 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-/* font-family: 'Rubik', sans-serif; */
-
-body{
-    letter-spacing: 2px;
-    background-color: rgb(233, 233, 233);
-    height: 400vh;
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+body {
+  letter-spacing: 2px;
+  background-color: rgb(233, 233, 233);
+  height: 400vh;
 }
-.topnav{
-    border-radius: 30px;
-    text-align: right;
-    padding: 30px;
-    font-family: 'Rubik', sans-serif;
-    font-size: larger;
-    position: sticky;
-    top: 0px;
-    z-index: 2;
+.topnav {
+  border-radius: 30px;
+  text-align: right;
+  padding: 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: larger;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
-.container{
-
-    background-image: url("photo/Untitled.png");
-    background-repeat: no-repeat;
-    height: 100vh;
-
-    
+.container {
+  background-image: url("photo/Untitled.png");
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-#kanishkimg{
-    position: absolute;
-    top: 130vh;
-    left: 250px;
-    border: 10px solid rgb(153,217,234);
-    border-radius: 30px;
+#kanishkimg {
+  position: absolute;
+  top: 130vh;
+  left: 250px;
+  border: 10px solid rgb(153, 217, 234);
+  border-radius: 30px;
 }
-.leftsidebar{
-    position:sticky;
-    top: 270px;
-    left: 70px;    
-    display: block;
-    height: 32vh;
-    width: 50px;
-    border-radius: 20px;
-    background-color: rgb(153,217,234);
-    padding-top: 28px;
-    
+.leftsidebar {
+  position: sticky;
+  top: 270px;
+  left: 70px;
+  display: block;
+  height: 32vh;
+  width: 50px;
+  border-radius: 20px;
+  background-color: rgb(153, 217, 234);
+  padding-top: 28px;
 }
 
-.topnav a{
-    text-decoration: none;
-    color: white;
-    margin-left:40px;
+.topnav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
 }
 
-
-
-
-#name{ 
-    float: left;
-    margin-left: 20%;
-    color: rgb(8, 8, 8);
+#name {
+  float: left;
+  margin-left: 20%;
+  color: rgb(8, 8, 8);
 }
-#name2{
-    float: left;
-    margin-left: 0px;
-    color: rgb(153,217,234);
+#name2 {
+  float: left;
+  margin-left: 0px;
+  color: rgb(153, 217, 234);
 }
 
-
-.topnav a:hover{
-    color: aquamarine;
-    border-radius: 50px;
+.topnav a:hover {
+  color: aquamarine;
+  border-radius: 50px;
 }
-.topnav a:hover .topnav.a{
-    margin-left: 30px;
+.topnav a:hover .topnav.a {
+  margin-left: 30px;
 }
-.leftsidebar a{
-    padding: 12px;
-    color: white;
+.leftsidebar a {
+  padding: 12px;
+  color: white;
 }
-.leftsidebar a:hover{
-    color: aquamarine;
+.leftsidebar a:hover {
+  color: aquamarine;
 }
-.bi{
-    padding-top: 15px;
-}
-
-#banner{
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
+.bi {
+  padding-top: 15px;
 }
 
-.infobox{
-    font-family: 'Rubik', sans-serif;
-    position: absolute;
-    top: 250px;
-    left: 270px;
-    z-index: -1;
-    font-size: x-large;
-    
-}
-.page1{
-    height: 88vh;
-    margin-bottom: 12vh;
-
-}
-.page2{
-    height: 88vh;
-    margin-bottom: 12vh;
-}
-.page3{
-    height: 88vh;
-    margin-bottom: 12vh;
-}
-.page4{
-    height: 88vh;
-    margin-bottom: 12vh;
-}
-.about{
-
-    position: absolute;
-    top: 125vh;
-    right: 250px;
-    font-family: 'Rubik', sans-serif;
-    border: 1px dashed black;
-    padding: 65px;
-    border-radius: 30px;
-    background-color: white;
-}
-#hello{
-    color:rgba(153, 217, 234);
-}
-#img2{
-    position: absolute;
-    top: 100%;
-}
-#projects{
-    margin-right: 100px;
+#banner {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
 }
 
-.skills{
-    font-family: 'Rubik';
-    position:absolute;
-    top: 230vh;
-    left:5%;
-    padding: 20px;
+.infobox {
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  top: 250px;
+  left: 270px;
+  z-index: -1;
+  font-size: x-large;
+}
+.page1 {
+  height: 88vh;
+  margin-bottom: 12vh;
+}
+.page2 {
+  height: 88vh;
+  margin-bottom: 12vh;
+}
+.page3 {
+  height: 88vh;
+  margin-bottom: 12vh;
+}
+.page4 {
+  height: 88vh;
+  margin-bottom: 12vh;
+}
+.about {
+  position: absolute;
+  top: 125vh;
+  right: 250px;
+  font-family: "Rubik", sans-serif;
+  border: 1px dashed black;
+  padding: 65px;
+  border-radius: 30px;
+  background-color: white;
+}
+#hello {
+  color: rgba(153, 217, 234);
+}
+#img2 {
+  position: absolute;
+  top: 100%;
+}
+#projects {
+  margin-right: 100px;
 }
 
-
-#skill{
-    position: absolute ;
-    left: 600px;
-    top: 0px;
-}
-#html{
-    position: absolute;
-    left: 100px;
-    top: 100px;
-}
-#html::after{
-    content: '';
-    position: absolute;
-    left: 160px;
-    top: 0px;
-    display: block;
-    height: 10px;
-    width: 300px;
-    background-image: linear-gradient(to right,rgba(153, 217, 234) 80%, white 20%);
+.skills {
+  font-family: "Rubik";
+  position: absolute;
+  top: 230vh;
+  left: 5%;
+  padding: 20px;
 }
 
-#css{
-    position: absolute;
-    left: 700px;
-    top: 100px;
+#skill {
+  position: absolute;
+  left: 600px;
+  top: 0px;
 }
-#css::after{
-    content: ' ';
-    position: absolute;
-    left: 160px;
-    top: 0px;
-    display: block;
-    height: 10px;
-    width: 300px;
-    background-image: linear-gradient(to right,rgba(153, 217, 234) 98%, white 2%);
+#html {
+  position: absolute;
+  left: 100px;
+  top: 100px;
 }
-#js{
-    position: absolute;
-    top: 170px;
-    left: 100px;
-}
-#js::after{
-    content: ' ';
-    position: absolute;
-    left: 160px;
-    top: 0px;
-    display: block;
-    height: 10px;
-    width: 300px;
-    background-image: linear-gradient(to right,rgba(153, 217, 234) 70%, white 30%);
-}
-#bootstrap{
-    position: absolute;
-    top: 170px;
-    left: 700px;
-}
-#bootstrap::after{
-    content: ' ';
-    position: absolute;
-    left: 160px;
-    top: 0px;
-    display: block;
-    height: 10px;
-    width: 300px;
-    background-image: linear-gradient(to right,rgba(153, 217, 234) 60%, white 40%);
-}
-#django{
-    position: absolute;
-    top: 240px;
-    left: 100px;
-}
-#django::after{
-    content: ' ';
-    position: absolute;
-    left: 160px;
-    top: 0px;
-    display: block;
-    height: 10px;
-    width: 300px;
-    background-image: linear-gradient(to right,rgba(153, 217, 234) 20%, white 10%);
-}
-.projects{
-    position: absolute;
-    top: 330vh;
-    font-family: 'Rubik', sans-serif;
-
-}
-.projects h1{
-    position: absolute;
-    left: 670px;
-}
-#keyboard{
-    position: absolute;
-    left: 200px;
-    display: block;
-    height: 200px;
-    top: 150px;
-    width: 400px;
-    border-radius: 40px;
-    border: 5px solid rgba(153, 217, 234);;
-    background-color: rgb(153,217,234);
-
+#html::after {
+  content: "";
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  display: block;
+  height: 10px;
+  width: 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(153, 217, 234) 80%,
+    white 20%
+  );
 }
 
-#notes{
-    position: absolute;
-    left: 800px;
-    top: 150px;
-    display: block;
-    height: 200px;
-    width: 400px;
-    border-radius: 40px;
-    border: 5px solid rgba(153, 217, 234);
-    background-color: rgb(153,217,234);
-    
+#css {
+  position: absolute;
+  left: 700px;
+  top: 100px;
+}
+#css::after {
+  content: " ";
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  display: block;
+  height: 10px;
+  width: 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(153, 217, 234) 98%,
+    white 2%
+  );
+}
+#js {
+  position: absolute;
+  top: 170px;
+  left: 100px;
+}
+#js::after {
+  content: " ";
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  display: block;
+  height: 10px;
+  width: 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(153, 217, 234) 70%,
+    white 30%
+  );
+}
+#bootstrap {
+  position: absolute;
+  top: 170px;
+  left: 700px;
+}
+#bootstrap::after {
+  content: " ";
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  display: block;
+  height: 10px;
+  width: 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(153, 217, 234) 60%,
+    white 40%
+  );
+}
+#react {
+  position: absolute;
+  top: 240px;
+  left: 100px;
+}
+#react::after {
+  content: " ";
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  display: block;
+  height: 10px;
+  width: 300px;
+  background-image: linear-gradient(
+    to right,
+    rgba(153, 217, 234) 70%,
+    white 10%
+  );
+}
+.projects {
+  position: absolute;
+  top: 330vh;
+  font-family: "Rubik", sans-serif;
+}
+.projects h1 {
+  position: absolute;
+  left: 670px;
+}
+#keyboard {
+  position: absolute;
+  left: 200px;
+  display: block;
+  height: 200px;
+  top: 150px;
+  width: 400px;
+  border-radius: 40px;
+  border: 5px solid rgba(153, 217, 234);
+  background-color: rgb(153, 217, 234);
 }
 
-
-
-.mainmain{
-    background-color:#FC766AFF;
-    height: 100vh;
-    z-index: 5;
-    display: block;
-}
-.main{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-
-}
-.childs{
-    height: 20px;
-    width: 50px;
-    z-index: 4;
-    margin-bottom: 5px;
-    background-color:rgb(153,217,234);
-}
-.c1{
-    animation: k1 2s 2 alternate ease-in;
-}
-.c6{
-    animation: k1 2s 2 alternate ease-in;
-}
-.c5{
-    animation: k2 2s 2 alternate ease-in;
-}
-.c2{
-    animation: k5 2s 2 alternate ease-in;
+#notes {
+  position: absolute;
+  left: 800px;
+  top: 150px;
+  display: block;
+  height: 200px;
+  width: 400px;
+  border-radius: 40px;
+  border: 5px solid rgba(153, 217, 234);
+  background-color: rgb(153, 217, 234);
 }
 
-.c3{
-    animation: k3 2s 2 alternate ease-in;
+.mainmain {
+  background-color: #fc766aff;
+  height: 100vh;
+  z-index: 5;
+  display: block;
 }
-.c4{
-    animation: k4 2s 2 alternate ease-in;
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: none;
+}
+.childs {
+  height: 20px;
+  width: 50px;
+  z-index: 4;
+  margin-bottom: 5px;
+  background-color: rgb(153, 217, 234);
+}
+.c1 {
+  animation: k1 2s 2 alternate-reverse ease-in-out;
+}
+.c6 {
+  animation: k1 2s 2 alternate-reverse ease-in-out;
+}
+.c5 {
+  animation: k2 2s 2 alternate-reverse ease-in-out;
+}
+.c2 {
+  animation: k5 2s 2 alternate-reverse ease-in-out;
+}
+
+.c3 {
+  animation: k3 2s 2 alternate-reverse ease-in-out;
+}
+.c4 {
+  animation: k4 2s 2 alternate-reverse ease-in-out;
 }
 @keyframes k1 {
-    33%{
-        transform: rotate(90deg);
-    }
-    66%{
-        transform: rotate(90deg);
-    }
-    99%{
-        transform: rotate(90deg);
-    }
-
+  33% {
+    transform: rotate(90deg);
+  }
+  66% {
+    transform: rotate(90deg);
+  }
+  99% {
+    transform: rotate(90deg);
+  }
 }
 @keyframes k2 {
-    33%{
-        transform: rotate(90deg) translateX(-20px);
-    }
-    66%{
-        transform: rotate(90deg) translateX(-20px);
-    }
-    99%{
-        transform: rotate(90deg) translateX(-20px);
-    }
-
+  33% {
+    transform: rotate(90deg) translateX(-20px);
+  }
+  66% {
+    transform: rotate(90deg) translateX(-20px);
+  }
+  99% {
+    transform: rotate(90deg) translateX(-20px);
+  }
 }
 @keyframes k5 {
-    33%{
-        transform: rotate(90deg) translateX(20px);
-    }
-    66%{
-        transform: rotate(90deg) translateX(20px);
-    }
-    99%{
-        transform: rotate(90deg) translateX(20px);
-    }
-
+  33% {
+    transform: rotate(90deg) translateX(20px);
+  }
+  66% {
+    transform: rotate(90deg) translateX(20px);
+  }
+  99% {
+    transform: rotate(90deg) translateX(20px);
+  }
 }
 @keyframes k3 {
-    33%{
-        transform: translateX(50px);
-    }
-    66%{
-        width: 90px;
-        transform: translateX(10px) translateY(-10px) rotate(-45deg);
-    }
-    99%{
-        width: 140px;
-        transform: translateX(1px) translateY(-20px) rotate(-45deg) ;
-    }
-    
+  33% {
+    transform: translateX(50px);
+  }
+  66% {
+    width: 90px;
+    transform: translateX(10px) translateY(-10px) rotate(-45deg);
+  }
+  99% {
+    width: 140px;
+    transform: translateX(1px) translateY(-20px) rotate(-45deg);
+  }
 }
 @keyframes k4 {
-    33%{
-        transform: translateX(50px);
-    }
-    66%{
-        width: 90px;
-        transform: translateX(10px) translateY(10px) rotate(45deg);
-    }
-    99%{
-        width:140px;
-        transform: translateX(1px) translateY(20px) rotate(45deg) ;
-    }
-    
+  33% {
+    transform: translateX(50px);
+  }
+  66% {
+    width: 90px;
+    transform: translateX(10px) translateY(10px) rotate(45deg);
+  }
+  99% {
+    width: 140px;
+    transform: translateX(1px) translateY(20px) rotate(45deg);
+  }
 }
 .projects a {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    
+  text-decoration: none;
+  color: white;
+  text-align: center;
 }
-.projects a #img1{
-    position: absolute;
-    top: 70px;
-    left: 100px;
+.projects a #img1 {
+  position: absolute;
+  top: 70px;
+  left: 100px;
 }
-.projects a #img2{
-    position: absolute;
-    top: 50px;
-    left: 150px;
+.projects a #img2 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
 }
 
-
-#downloadCv{
-    padding: 10px;
-    border-radius: 12px;
-    border: 3px solid whitesmoke;
-    position: absolute;
-    top: 530px;
-    width: 140px;
-    left: 270px;
-    color: white;
-    background-color:rgb(153,217,234);
+#downloadCv {
+  padding: 10px;
+  border-radius: 12px;
+  border: 3px solid whitesmoke;
+  position: absolute;
+  top: 530px;
+  width: 140px;
+  left: 270px;
+  color: white;
+  background-color: rgb(153, 217, 234);
 }
