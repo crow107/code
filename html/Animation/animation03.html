@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #divone{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #k span{
+            display:block;
+            background-color: black;
+            width: 10px;
+            border-radius: 20px;
+            float: left;
+            
+        }
+        #onek{
+            height: 100px;
+        }
+        #twok{
+            transform: translateX(-10px) translateY(0px);
+            animation: letterK1 3s 5 ;
+            height: 60px;
+        }
+        #threek{
+            transform: translateX(-20px) translateY(40px);
+            animation: letterK2 3s 5 ;
+            height: 60px;
+        }
+       
+        @keyframes letterK1{
+            1%{
+                transform: translateY(0px) translateX(-10px);
+            }
+
+            
+            30%{
+                transform: translateY(0px) translateX(10px);
+            }
+
+            80%{
+            transform:rotate(45deg) translateX(10px) translateY(-14px);}
+        }
+
+        @keyframes letterK2 {
+            1%{
+                transform: translateY(40px) translateX(-20px)
+            }
+
+            30%{
+                transform: translateY(40px) translateX(0px);
+            }
+
+            80%{
+                
+                transform: rotate(-40deg) translateX(-22px) translateY(30px);
+                    }
+        }
+
+
+
+        #R span{
+            display:block;
+            background-color: black;
+            width: 10px;
+            border-radius: 20px;
+            float: left;
+
+        }
+        #oneR{
+            height: 100px;
+            transform: translateX(-30px);
+            animation: letterR1 3s 5 ;
+        }
+        #twoR{
+            height:50px;
+            transform: translateY(-100px);
+            animation: letterR2 3s 5 ;
+        }
+        #threeR{
+            height: 70px;
+            transform: translate(-10px,-100px);
+            animation: letterR3 3s 5 ;
+        }
+        #fourR{
+            height: 70px;
+            transform-origin: center;
+            
+            transform: translate(-20px,-100px);
+
+            animation: letterR4 3s 5 ;
+        }
+        @keyframes letterR1 {
+            10%{
+                transform: translateX(30px);
+            }
+            100%{
+                transform: translateX(30px);
+            }
+            
+        }
+        @keyframes letterR2 {
+            10%{
+                transform: translateX(60px) translateY(-100px);
+            }
+            80%{
+                transform: rotate(270deg) translateX(120px) translateY(80px);
+            }
+            100%{
+                
+                transform: rotate(270deg) translateX(120px) translateY(80px);
+                display: block;
+            }
+            
+        }
+        @keyframes letterR3 {
+            10%{
+                transform: translateX(50px) translateY(-100px);
+            }
+            80%{
+                transform: rotate(45deg)  translate(-24px,-126px) ;
+            }
+            100%{
+                
+                transform: rotate(45deg)  translate(-24px,-126px) ;
+                display: block;
+
+
+            }
+
+            
+        }
+        @keyframes letterR4 {
+            10%{
+                transform: translateX(40px) translateY(-70px);
+            }
+            80%{
+                transform-origin: center;
+                transform: rotate(315deg) translateX(90px) ;
+            }
+            100%{
+                transform: rotate(315deg) translateX(90px) ;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="divone">
+        <div id="k">
+            <span id = "onek"></span>
+            <span id = "twok"></span>
+            <span id = "threek"></span>
+        </div>
+        <div id="R">
+            <span id="oneR"></span>
+            <span id="twoR"></span>
+            <span id="threeR"></span>
+            <span id="fourR"></span>
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>

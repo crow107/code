@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letter SYSTEM "letter.dtd">
+<?xml-stylesheet type="text/css" href="letter.css"?>
+<note>
+<to>ram</to>
+<from>kanishk</from>
+<heading>Hello</heading>
+<body>This is letter with xlm</body>
+</note>
