@@ -48,7 +48,8 @@ body {
   float: left;
   margin-left: 20%;
   color: rgb(8, 8, 8);
-}
+  filter: drop-shadow(0 0 80px rgb(153, 217, 234));
+  }
 #name2 {
   float: left;
   margin-left: 0px;

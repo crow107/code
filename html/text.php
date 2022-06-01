@@ -7,9 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <ul id="text"></ul>
-
-    <script src ="Class-01.js"></script>
+    <H1>THis is me</H1>
+    <?PHP echo "Hello" ?>
     
 </body>
 </html>

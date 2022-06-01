@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightsalmon;
+        }
+        button{
+            padding: 10px;
+            width: 100px;
+            border-radius: 10px;
+            margin: 100px;
+            margin-top: 300px;
+        }
+        #btalert{
+            margin-left: 350px;
+            background-color: lightskyblue;
+        }
+        #btconfirm{
+            background-color: lightgreen;
+        }
+        #btprompt{
+            background-color: lightcoral;
+        }
+
+        p{
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            color: white;
+            transform:translateX(-50%,-50%);
+        }
+    </style>
+    <script>
+        
+        function btnalert(){
+            window.alert("This is alert Box");}
+
+        function btnconfirm(){
+            var Return= document.getElementById("returnvalue");
+            
+            let Confirm = window.confirm("This is confirm Box");
+            if(Confirm==true){
+                Return.innerText = "You clicked OK" ;
+            }
+            else if(Confirm==false){
+                Return.innerText = "You clicked Cancel";
+            }
+        }
+
+        function btnprompt(){
+            var Return= document.getElementById("returnvalue");
+            let Confirm = window.prompt("This is prompt in Javascript");
+            if(Confirm!=null && Confirm!=""){
+                Return.innerText = `Your write "${Confirm}" in the input text`;
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <button id="btalert" onclick="btnalert()">Alert</button>
+    <button id="btconfirm" onclick="btnconfirm()">Confirm</button>
+    <button id="btprompt" onclick="btnprompt()">Prompt</button>
+    
+    <p id="returnvalue"></p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=a, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      p {
+        color: white;
+      }
+      body {
+        background-color: lightblue;
+      }
+      #all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <script>
+      function onclickfun() {
+        var data = document.getElementById("onclicktext");
+        data.innerText = "You clicked the Button";
+      }
+      function onmouseoverfun() {
+        var data = document.getElementById("onmousetext");
+        data.innerText = "Your mouse is on the text";
+      }
+      function onmouseoutfun() {
+        var data = document.getElementById("onmousetext");
+        data.innerText = " ";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="all">
+      <p
+        id="onclicktext"
+        onmouseover="onmouseoverfun()"
+        onmouseout="onmouseoutfun()"
+      ></p>
+      <p id="onmousetext"></p>
+      <button id="onclick" onclick="onclickfun()">Click</button>
+    </div>
+  </body>
+</html>
