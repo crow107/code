@@ -1,0 +1,3 @@
+q. sparse matrix and three tuple medthod
+ 
+q. stack
