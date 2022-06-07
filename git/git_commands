@@ -1,0 +1,3 @@
+Git commands 
+git log - To see the privous commits
+git chekout -b branchName

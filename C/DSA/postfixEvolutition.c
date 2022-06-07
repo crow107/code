@@ -38,10 +38,10 @@ int main(){
             stack[top] = num1 * num2;
         }
         // else if (otp = 46){
-        //     printf("^");
+        //     // printf("^");
         //     int num1 = stack[top--];
         //     int num2 = stack[top];
-        //     // stack[top] =pow(num1,num2);
+        //     stack[top] =pow(num1,num2);
         // }
         else{
             stack[++top] = otp;
