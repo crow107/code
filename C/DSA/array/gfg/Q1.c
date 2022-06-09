@@ -15,3 +15,4 @@ int main(){
 // approch 2 (using maths) 
 // find the sum of the array then find the sum of array without duplication then 
 // 2*(sum_of_array_without_dupplicates) - (sum_of_array)
+
