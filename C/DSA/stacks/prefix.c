@@ -22,27 +22,27 @@ int main(){
         if(otp==-1){// printf("/");
             int num1 = stack[top--];
             int num2 = stack[top];
-            stack[top] = num2 / num1;
+            stack[top] = num1 / num2;
         }
         else if(otp == -3){// printf("-");
             int num1 = stack[top--];
             int num2 = stack[top];
-            stack[top] = num2 - num1;
+            stack[top] = num1 - num2;
         }
         else if(otp== -5 ){// printf("+");
             int num1 = stack[top--];
             int num2 = stack[top];
-            stack[top] = num2 + num1;
+            stack[top] = num1 + num2;
         }
         else if(otp== -6){// printf("*");
             int num1 = stack[top--];
             int num2 = stack[top];
-            stack[top] = num2 * num1;
+            stack[top] = num1 * num2;
         }
         else if (otp == 46){// printf("^");
             int num1 = stack[top--];
             int num2 = stack[top];
-            stack[top] = pow(num2,num1);
+            stack[top] = pow(num1,num2);
              
         }
         else{
